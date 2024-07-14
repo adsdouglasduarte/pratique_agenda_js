@@ -1,4 +1,4 @@
-// Variáveis para receber o input dos dados
+// Variáveis decraradas globais
 var nome = document.getElementById('nome')
 var tel = document.getElementById('telefone')
 var formMain = document.getElementById('formMain')
