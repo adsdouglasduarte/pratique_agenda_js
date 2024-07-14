@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* Color Theme Swatches in Hex */
+:root {
+--color-1: #024059;
+--color-2: #D9D9D9;
+--color-3: #F2D0A7;
+--color-4: #F2D6BD;
+--color-5: #A6382E;
+}
+
+/* Rectangle 1 CONTENTMAIN */
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contentMain {
+    /* Rectangle 1 CONTENTMAIN */
+
+flex-direction: column;
+flex-wrap: wrap;
+align-items:center;
+display: flex;
+width: 855px;
+height: 795px;
+left: 290px;
+top: 78px;
+
+background: #F2D6BD;
+box-shadow: 5px 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 42px;
+
+}
+
+h1{
+    /* AGENDA DE CONTATOS */
+margin: 137px 0 50px 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+/* identical to box height */
+
+color: #024059;
+}
+
+#formMain{
+    flex-wrap: wrap;
+}
+
+#nome, #telefone {
+    width: 200px;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+
+
+#formMain table {
+    height: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    #formMain table thead tr{
+    color: var(--color-1);
+    font-size: 24px;
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    #formMain table tbody td{
+        border: 1px solid #024059;
+        background-color: #fff;
+        width: 250px;
+    }
+
+    #adicionar {
+    background-color: #A6382E;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+    }
+
+    #adicionar:hover {
+        background-color: #a6382e3d;
+    }
+
+    tbody td {
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+
+    #telefone::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Contatos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="contentMain">
+        <h1>AGENDA DE CONTATOS</h1>
+
+        <form id="formMain">
+            <div class="inputMain">
+
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="number" name="telefone" id="telefone" placeholder="DDD + 99999-9999" required maxlength="12" title="Por favor, insira um número de telefone valido.">
+                <input id="adicionar" value="Adicionar +" type="submit">
+            </div>
+            <table id="tableMain">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyMain">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
